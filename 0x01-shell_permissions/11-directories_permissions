@@ -1,0 +1,2 @@
+#!/bun/bash
+chmod a+x */
