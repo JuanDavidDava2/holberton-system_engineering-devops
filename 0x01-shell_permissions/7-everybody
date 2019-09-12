@@ -1,2 +1,2 @@
-#!/bin/bass
+#!/bin/bash
 chmod a+x hello
