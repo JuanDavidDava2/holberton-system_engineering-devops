@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Loops from 1 to 10 and displays "bad luck" for 4th loop, "good luck" for
+i=0
+while [ $i -lt 10 ]
+do
+    if [ $i == 3 ]
+        then echo "bad luck"
+    elif [ $i == 7 ]
+        then echo "good luck"
+    else
+        echo "Holberton School"
+    fi
+    i=$((i+1))
+done
