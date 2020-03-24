@@ -1,4 +1,4 @@
-Host *
+#ssh config
 ForwardAgent yes
 IdentityFile ~/.ssh/holberton
 PasswordAuthentication no
