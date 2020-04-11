@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# fix web server
+sudo pkill apache2
+sudo chmod a+rw /etc/nginx/nginx.conf
+sed -i -E 's/(listen.*)80 /\18080 /g' /etc/nginx/sites-enabled/default
+sudo -u nginx nginx
