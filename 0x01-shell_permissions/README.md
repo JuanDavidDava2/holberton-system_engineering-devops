@@ -59,3 +59,6 @@
 ## 100-Star_Wars
 > Script that will play the StarWars IV episode in the terminal.
 
+## 101-man_holberton
+> Man page that looks exactly like this one and passes all checks.
+
