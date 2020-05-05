@@ -17,7 +17,7 @@ if __name__ == '__main__':
     tasks = requests.get('{}/todos?userId={}'.format(url, user_id))
     task_list = tasks.json()
     row_list = [[user_id,
-                employee_name,
+                username,
                 task.get('completed'),
                 task.get('title')]
                 for task in task_list]
