@@ -3,9 +3,9 @@
 Using this REST API, for a given employee ID,
 returns information about his/her TODO list progress.
 """
+import csv
 import requests
 import sys
-import csv
 
 if __name__ == '__main__':
 
