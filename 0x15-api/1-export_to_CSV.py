@@ -11,8 +11,8 @@ if __name__ == '__main__':
 
     url = 'https://jsonplaceholder.typicode.com'
     user_id = sys.argv[1]
-    employee = requests.get('{}/users/{}'.format(url, user_id ))
-    employee_name = employee.json().get('name')
+    employee = requests.get('{}/users/{}'.format(url, user_id))
+    username = employee.json().get('username')
 
     tasks = requests.get('{}/todos?userId={}'.format(url, user_id))
     task_list = tasks.json()
